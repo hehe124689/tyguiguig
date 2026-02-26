@@ -1,0 +1,106 @@
+
+.main-border {
+    border: 2px solid #555;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background-color: #fff5f8; 
+    
+
+
+    font-family: Arial, sans-serif;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: #b00050;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+.content-text {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+/* Góc thơ */
+.poem {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+/* Chia cột theo tỷ lệ 50-50 */
+.flex-container {
+    display: flex;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.left-col {
+    flex: 50%;
+    border-right: 1px solid #555;
+    padding: 10px;
+}
+
+.right-col {
+    flex: 50%;
+    padding: 10px;
+}
+
+/* Ảnh và Video */
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-grid img {
+    width: 45%;
+    border: 1px solid #ddd;
+}
+
+.caption {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Phần bình luận (Form) */
+.comment-section {
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 60px;
+}
+
+input, textarea {
+    width: calc(100% - 70px);
+}
+
+button {
+    margin-left: 60px;
+    background: #b00050;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 11px;
+    color: #888;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
